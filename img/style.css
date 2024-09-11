@@ -1,7 +1,7 @@
-body{
+body {
     text-align: center;
-    margin: 0 auto;
-    margin-bottom: 50px ;
+    margin: auto;
+    margin-bottom: 50px;
     margin-top: 15px;
 }
 
@@ -9,7 +9,19 @@ body{
     text-align: center;
 }
 
-.letrasproutrold{
+.letrasproutrold {
     text-align: left;
     padding-left: 18%;
+}
+
+.compartilhar {
+    vertical-align: middle; /* Ajusta o alinhamento vertical do ícone com o texto */
+    margin-right: 8px; /* Espaço entre o ícone e o texto */
+    display: inline-block; /* Garante que o ícone e o texto fiquem na mesma linha */
+}
+
+h5 {
+    display: flex;
+    align-items: center; /* Alinha o ícone e o texto verticalmente */
+    margin: 0; /* Remove a margem padrão do h5 */
 }
